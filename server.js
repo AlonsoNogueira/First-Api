@@ -1,16 +1,3 @@
-// import {createServer} from 'node:http'
-
-// const server = createServer((request, response)=>{
-//     response.write('Hello world')
-//     return response.end()
-// })
-// server.listen(3333)
-
-//GET: operaçao de busca de informacao
-//POST: criar registros
-//PUT: Alterar
-//DELETE: deletar
-
 
 import { fastify } from 'fastify'
 import { DatabaseMemory } from './database-memory.js'
